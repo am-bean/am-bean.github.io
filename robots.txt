@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://am-bean.github.io/home/sitemap.xml
+Sitemap: https://am-bean.github.io/sitemap.xml
