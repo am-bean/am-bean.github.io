@@ -1,12 +1,8 @@
-github_users:
-  - torvalds
-  - alshedivat
+#github_users:
+#  - "am-bean"
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - "am-bean/computational-methods-in-social-science"
+  - "am-bean/AAS-MT2021"
+  - "am-bean/face_recognition_bounty"
+  - "am-bean/msc_thesis"
