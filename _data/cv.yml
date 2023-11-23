@@ -46,7 +46,7 @@
 #            - Sub-description 1.
 #            - Sub-description 2.
     - title: Data Science Consultant
-      institution: HealthSherpa
+      company: "<a href='https://www.healthsherpa.com'>HealthSherpa</a>"
       year: 2021
       description:
         - Collaborated with the CEO to produce ongoing investor presentations
@@ -57,7 +57,7 @@
         - Renovated data ETL pipelines, replacing manual processes with reusable scripts 
 
     - title: Investment Associate
-      institution: Bridgewater Associates
+      company: "<a href='https://www.bridgewater.com/'>Bridgewater Associates</a>"
       year: 2017-2021
       description: 
         - Expanded upon global macroeconomic understanding through fundamental analysis of market drivers across global markets
