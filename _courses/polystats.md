@@ -5,7 +5,7 @@ description: a tutorial in statistics for B.S. students in Political Science
 role: Instructor
 term: Trinity 2023
 img: assets/img/Stanford_logo.png
-importance: 1
+importance: 2
 category: Stanford
 #github: https://github.com/am-bean/computational-methods-in-social-science
 #coursepage: https://www.oii.ox.ac.uk/study/courses/computational-methods-for-the-social-sciences/

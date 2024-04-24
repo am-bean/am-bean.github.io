@@ -34,17 +34,25 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Lecturer
+      institution: Stanford University, Bing Overseas Study Program
+      year: 2023 - Present
+      description:
+        - Designed a new undergraduate course covering introductory ethics concepts through AI case studies
+        - Led weekly seminars discussing pre-assigned readings
+        - Provided ongoing feedback on written coursework and presentations
+        - Earned perfect student ratings for learning and quality of instruction
+        
     - title: DPhil Student
       institution: Oxford Internet Institute, University of Oxford
       year: 2021 - Present
       description:
-        - "Published research studying large language models (see Publications)"
-        - Taught and TA'd several courses in statistics, computational methods, and AI ethics (see Teaching)
-#        - Description 2.
-#        - title: Description 3.
-#          contents:
-#            - Sub-description 1.
-#            - Sub-description 2.
+        - Designed and ran research studies about training and benchmarking large language models
+        - Coordinated large projects with multiple external stakeholders and funders
+        - Mentored MSc and junior PhD students
+        - Co-coordinated a Data-Centric Machine Learning Workshop at ICML '24
+        - Taught and assisted with courses in statistics and computational methods
+
     - title: Data Science Consultant
       company: "<a href='https://www.healthsherpa.com'>HealthSherpa</a>"
       year: 2021
@@ -66,6 +74,7 @@
         - Co-led an overhaul of the analytics training course for new associates, resulting in significantly higher impact as rated by managers
         - Modelled and projected return scenarios to support risk allocation decisions for a $100bn flagship portfolio
         - Developed proprietary algorithms to trade fixed income markets from quantitative understanding of market drivers
+
 #- title: Open Source Projects
 #  type: time_table
 #  contents:

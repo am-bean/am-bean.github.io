@@ -2,11 +2,11 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: I teach within the Oxford Internet Institute and for Stanford University students studying abroad. My courses cover statistics, computational methods and AI ethics.
+description: I teach within the Oxford Internet Institute and for Stanford University students studying abroad. My courses cover statistics, computational methods and AI ethics. Student reviews have described my courses as "above and beyond" and "the best", and my instruction as "excellent", "fantastic facilitating conversation" and "incredibly kind". 
 nav: true
 nav_order: 5
 display_categories: [Oxford, Stanford]
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/teaching.md -->
@@ -20,7 +20,7 @@ horizontal: false
   <!-- Generate cards for each course -->
   {% if page.horizontal -%}
   <div class="container">
-    <div class="row row-cols-2">
+    <div class="row row-cols-1">
     {%- for course in sorted_courses -%}
       {% include courses_horizontal.html %}
     {%- endfor %}
@@ -41,7 +41,7 @@ horizontal: false
   <!-- Generate cards for each course -->
   {% if page.horizontal -%}
   <div class="container">
-    <div class="row row-cols-2">
+    <div class="row row-cols-1">
     {%- for course in sorted_courses -%}
       {% include courses_horizontal.html %}
     {%- endfor %}

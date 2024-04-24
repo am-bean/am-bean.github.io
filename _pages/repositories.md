@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: A sampling of my public GitHub repositories, predominantly for teaching.
+description: Public GitHub repositories to which I have contributed
 nav: true
 nav_order: 3
 ---

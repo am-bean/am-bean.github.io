@@ -2,6 +2,10 @@
 #  - "am-bean"
 
 github_repos:
+  - "mlcommons/dynabench"
+  #- "HannahKirk/prism-alignment"
+  - "khyatikhandelwal/Indian-LLMs-Bias"
+  #- "am-bean/lingOly"
   - "am-bean/computational-methods-in-social-science"
   - "am-bean/AAS-MT2021"
   - "am-bean/face_recognition_bounty"

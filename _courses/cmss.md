@@ -5,7 +5,7 @@ description: an introductory course for MSc students in Social Science of the In
 role: Teaching Assistant
 term: Hilary 2023
 img: assets/img/OII_small_blue_logo.jpg
-importance: 1
+importance: 3
 category: Oxford
 github: https://github.com/am-bean/computational-methods-in-social-science
 coursepage: https://www.oii.ox.ac.uk/study/courses/computational-methods-for-the-social-sciences/

@@ -2,7 +2,7 @@
 layout: page
 title: Practical Ethics in Artificial Intelligence
 description: a introductory course in philosophical ethics taught through case studies in AI
-role: Instructor
+role: Lecturer
 term: Hilary 2024
 img: assets/img/Stanford_logo.png
 importance: 1

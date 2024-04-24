@@ -5,7 +5,7 @@ description: an introductory course for MSc students in Social Data Science
 role: Teaching Assistant
 term: Michaelmas 2022
 img: assets/img/OII_small_blue_logo.jpg
-importance: 1
+importance: 4
 category: Oxford
 github: https://github.com/aezarebski/aas-extended-examples
 coursepage: https://www.oii.ox.ac.uk/study/courses/applied-analytical-statistics/

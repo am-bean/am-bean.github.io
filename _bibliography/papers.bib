@@ -40,17 +40,19 @@
   selected={true},
 }
 
-@misc{korgulExploringLandscapeLarge2023,
-  title = {Exploring the {{Landscape}} of {{Large Language Models In Medical Question Answering}}: {{Observations}} and {{Open Questions}}},
-  shorttitle = {Exploring the {{Landscape}} of {{Large Language Models In Medical Question Answering}}},
-  author = {Korgul, Karolina and Bean, Andrew M. and Krones, Felix and McCraith, Robert and Mahdi, Adam},
-  year = {2023},
-  month = oct,
+@misc{beanExploringLandscapeLarge2024,
+  title = {Exploring the Landscape of Large Language Models in Medical Question Answering},
+  author = {Bean, Andrew M. and Korgul, Karolina and Krones, Felix and McCraith, Robert and Mahdi, Adam},
+  year = {2024},
+  month = mar,
   arxiv = {2310.07225},
   primaryclass = {cs},
-  publisher = {{arXiv}},
+  publisher = {arXiv},
   doi = {10.48550/arXiv.2310.07225},
-  abstract = {Large Language Models (LLMs) have shown promise in medical question answering by achieving passing scores in standardised exams and have been suggested as tools for supporting healthcare workers. Deploying LLMs into such a high-risk context requires a clear understanding of the limitations of these models. With the rapid development and release of new LLMs, it is especially valuable to identify patterns which exist across models and may, therefore, continue to appear in newer versions. In this paper, we evaluate a wide range of popular LLMs on their knowledge of medical questions in order to better understand their properties as a group. From this comparison, we provide preliminary observations and raise open questions for further research.},
+  urldate = {2024-04-24},
   archiveprefix = {arxiv},
   keywords = {Computer Science - Computation and Language},
+  abstract = {With the rapid development of new large language models (LLMs), each claiming to surpass previous models, an overall picture of medical LLM research can be elusive. To address this challenge, we benchmark a range of top LLMs and identify consistent patterns which appear across models. We test 8 well-known LLMs on 874 newly collected questions from Polish medical licensing exams. For each question, we score each model on the top-1 accuracy and the distribution of probabilities assigned. We then compare with factors including question difficulty for humans, question length, and the scores of the other models. LLM accuracies were positively correlated pairwise (0.29 to 0.62). Model performance was also correlated with human performance (0.07 to 0.16), but negatively correlated to the difference between the question-level accuracy of top-scoring and bottom-scoring humans (−0.16 to −0.23). The top output probability and question length were positive and negative predictors of accuracy respectively (p <0.05). The top scoring LLM, GPT-4 Turbo, scored 82%, followed by Med42, PaLM 2, Mixtral and GPT-3.5 around 63%. We found evidence of similarities between models in which questions they answer correctly, as well as similarities with human test takers. Larger models typically performed better, but differences in training methods were also highly impactful. Model accuracy was positively correlated with confidence, but negatively correlated with question length. We expect that similar training methods will lead these patterns to persist across future models. These patterns can therefore aid medical experts in forming expectations about LLMs as a category to support application research.},
+  selected={true},
+
 }
