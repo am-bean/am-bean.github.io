@@ -3,7 +3,7 @@
 
 github_repos:
   - "mlcommons/dynabench"
-  #- "HannahKirk/prism-alignment"
+  - "HannahKirk/prism-alignment"
   - "khyatikhandelwal/Indian-LLMs-Bias"
   #- "am-bean/lingOly"
   - "am-bean/computational-methods-in-social-science"
