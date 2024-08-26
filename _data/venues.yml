@@ -1,3 +1,9 @@
 "ArXiv":
   url: https://arxiv.org/
   color: "#b31b1b"
+"Under review":
+  color: "#d2d2d2"
+"EMNLP":
+  color: "#ef5252"
+"NeurIPS":
+  color: "#cb8ddc"
