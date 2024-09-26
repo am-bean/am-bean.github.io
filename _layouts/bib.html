@@ -26,6 +26,17 @@
             <abbr class="badge">{{entry.abbr}}</abbr>
           {%- endif -%}
         {%- endif -%}
+        {%- elsif entry.badge -%}
+          {%- if site.data.badges[entry.badge] -%}
+            {%- assign badge_style = nil -%}
+            {%- if site.data.badges[entry.badge].color != blank -%}
+              {%- assign badge_style = site.data.badges[entry.badge].color | prepend: 'style="background-color:' | append: '"' -%}
+            {%- endif -%}
+            <abbr class="badge" {% if badge_style %}{{badge_style}}{% endif %}><a href="{{site.data.badges[entry.badge].url}}">{{entry.badge}}</a></abbr>
+          {%- else -%}
+            <abbr class="badge">{{entry.badge}}</abbr>
+          {%- endif -%}
+        {%- endif -%}
         </div>
         {%- endif -%}
 
