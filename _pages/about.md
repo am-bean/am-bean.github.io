@@ -19,6 +19,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Andrew Bean is a doctoral researcher in AI (Artificial Intelligence) at the Oxford Internet Institute. He studies data-centric machine learning from a technical and sociotechnical perspective.
+Andrew Bean is a doctoral researcher in Social Data Science at the Oxford Internet Institute. He studies data-centric machine learning from a technical and sociotechnical perspective.
 
-Andrew has particular expertise in the study of large language models, and has co-authored research papers and policy briefs about benchmarking, alignment, bias and safety. In 2022, he was awarded the Clarendon Scholarship for top doctoral applicants to the University of Oxford.
+Andrew has particular expertise in the study of large language models, and has co-authored research papers and policy briefs about benchmarking, alignment, bias and safety appearing in venues such as NeurIPS (2x Oral presentations), EMNLP, and the UK House of Lords. In 2022, he was awarded the Clarendon Scholarship for top doctoral applicants to the University of Oxford.
