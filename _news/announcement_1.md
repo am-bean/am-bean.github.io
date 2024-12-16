@@ -1,8 +1,8 @@
 ---
 layout: post
 date: 2024-12-16 00:00:00-0000
-title: NeurIPS Best Paper!
-inline: true
+title: NeurIPS Best Paper for PRISM!
+inline: false
 related_posts: false
 ---
 

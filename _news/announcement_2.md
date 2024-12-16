@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NeurIPS Oral Presentation!
+title: NeurIPS Oral Presentation for LingOly!
 date: 2024-12-12 00:00:00-0000
 inline: false
 related_posts: false
