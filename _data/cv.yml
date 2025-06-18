@@ -34,9 +34,12 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Lecturer
+- title: Research Scientist Intern
+institution: Thomson Reuters
+year: 2025
+  - title: Lecturer
       institution: Stanford University, Bing Overseas Study Program
-      year: 2023 - Present
+      year: 2023 - 2025
       description:
         - Designed a new undergraduate course covering introductory ethics concepts through AI case studies
         - Led weekly seminars discussing pre-assigned readings
