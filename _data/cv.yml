@@ -34,10 +34,12 @@
 - title: Experience
   type: time_table
   contents:
-- title: Research Scientist Intern
-institution: Thomson Reuters
-year: 2025
-  - title: Lecturer
+    - title: Research Scientist Intern
+      institution: Thomson Reuters
+      year: 2025
+      description:
+        - Intern on the Foundational Research team, training a custom LLM for client applications
+    - title: Lecturer
       institution: Stanford University, Bing Overseas Study Program
       year: 2023 - 2025
       description:
