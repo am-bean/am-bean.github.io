@@ -1,15 +1,19 @@
 <!-- _includes/media.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
+<div class="card-item col">
     <div class="card hoverable">
+      <div class="row g-0">
         {%- if media.img %}
         {%- include figure.html
           path=media.img
           alt="media thumbnail" -%}
         {%- endif %}
-        <div class="card-body">
-          <h2 class="card-title">Paper: {{ media.title }}</h2>
-                <p class="card-text">
+        <div class="col-md-8">
+        {%- else -%}
+        <div class="col-md-12">
+        {%- endif -%}
+          <div class="card-body">
+            <a href="{{ media.url | relative_url }}"><h3 class="card-title">{{ media.title }}</h3></a>
+            <p class="card-text">
                     {%- if media.links -%}
                     <ul>    
                         {%- for link in media.links -%}
@@ -18,6 +22,9 @@
                     </ul>
                     {%- endif -%}
                 </p>
+            </div>
         </div>
+      </div>
     </div>
+</div>
 </div>
