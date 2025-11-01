@@ -7,10 +7,7 @@
           path=media.img
           alt="media thumbnail" -%}
         {%- endif %}
-        <div class="col-md-8">
-        {%- else -%}
         <div class="col-md-12">
-        {%- endif -%}
           <div class="card-body">
             <a href="{{ media.url | relative_url }}"><h3 class="card-title">{{ media.title }}</h3></a>
             <p class="card-text">
