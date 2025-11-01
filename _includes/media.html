@@ -1,12 +1,7 @@
 <!-- _includes/media.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  {% if media.redirect -%}
-  <a href="{{ media.redirect }}">
-    {%- else -%}
-    <a href="{{ media.url | relative_url }}">
-      {%- endif %}
-      <div class="card hoverable">
+    <div class="card hoverable">
         {%- if media.img %}
         {%- include figure.html
           path=media.img
@@ -16,17 +11,13 @@
           <h2 class="card-title">{{ media.title }}</h2>
                 <p class="card-text">
                     {%- if media.links -%}
-                    {%- for link in media.links -%}
-                        <a href="{{ link.url }}" target="_blank" rel="noopener" class="media-link">{{ link.name }}</a>{% if forloop.last == false %}, {% endif %}
+                    <ul>    
+                        {%- for link in media.links -%}
+                        <li><a href="{{ link.url }}" target="_blank" rel="noopener" class="media-link">{{ link.name }}</a></li>
                     {%- endfor -%}
+                    </ul>
                     {%- endif -%}
                 </p>
-                </div>
-            </div>
-            </div>
-        </a>
         </div>
-        </div>
-      </div>
-    </a>
+    </div>
 </div>
