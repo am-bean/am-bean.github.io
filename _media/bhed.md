@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Indian-BhED: A Dataset for Measuring India-Centric Biases in Large Language Models
-img: assets/img/OII_small_blue_logo.jpg
+title: "Indian-BhED: A Dataset for Measuring India-Centric Biases in Large Language Models"
+#img: assets/img/OII_small_blue_logo.jpg
 permalink: /media/bhed/
 # list of name/url pairs
 links:
