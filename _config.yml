@@ -172,7 +172,7 @@ collections:
   courses:
     output: true
     permalink: /teaching/:path/
-  courses:
+  media:
     output: true
     permalink: /media/:path/
 
