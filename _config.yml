@@ -172,6 +172,9 @@ collections:
   courses:
     output: true
     permalink: /teaching/:path/
+  courses:
+    output: true
+    permalink: /media/:path/
 
 announcements:
   enabled: true
