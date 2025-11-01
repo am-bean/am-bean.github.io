@@ -14,7 +14,7 @@ horizontal: false
   <!-- Generate cards for each paper -->
   <div class="grid">
     {%- for media in sorted_media -%}
-      {% include media.html %}
+      {% include media.html media=media %}
     {%- endfor %}
   </div>
 </div>
