@@ -19,6 +19,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Andrew Bean is a doctoral researcher in Social Data Science at the Oxford Internet Institute. He studies **human-centric artificial intelligence** from a technical and sociotechnical perspective.
+I am a DPhil candidate at Oxford researching the evaluation of advanced AI systems. My research mixes technical elements in the building and evaluation of AI agents with experimental methods in online user studies.
 
-Andrew has particular expertise with **large language models**, and has written papers about evaluations, reasoning, alignment and human data in venues such as NeurIPS (**1x Best Paper, 2x Oral presentations**), EMNLP, and GoodIT. He has been an invited speaker at Meta, the MIT Media Lab, MilaNLP and Ofcom. His research has been covered in the media by publications such as [VentureBeat](https://venturebeat.com/ai/just-add-humans-oxford-medical-study-underscores-the-missing-link-in-chatbot-testing/) and [TechCrunch](https://techcrunch.com/2025/05/05/people-struggle-to-get-useful-health-advice-from-chatbots-study-finds/).
+I have written papers about evaluations, reasoning, alignment and human data in venues such as NeurIPS (**1x Best Paper, 2x Oral presentations**), EMNLP, and GoodIT. I have been an invited speaker at Meta, the MIT Media Lab, MilaNLP and Ofcom. My research has been covered in the media by publications such as The Guardian and the MIT Technology Review.
