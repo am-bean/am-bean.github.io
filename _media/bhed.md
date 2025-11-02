@@ -8,7 +8,7 @@ links:
   - publisher: "MIT Technology Review"
     name: "OpenAI is huge in India. Its models are steeped in caste bias."
     url: "https://www.technologyreview.com/2025/10/01/1124621/openai-india-caste-bias/"
-    date: "Oct. 1, 2025"
+    date: "October 1, 2025"
 importance: 
 show_abstract: true
 related_publications: khandelwalIndianBhEDDatasetMeasuring2024

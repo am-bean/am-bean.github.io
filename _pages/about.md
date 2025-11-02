@@ -21,4 +21,4 @@ social: true  # includes social icons at the bottom of the page
 
 I am a DPhil candidate at Oxford researching the evaluation of advanced AI systems. My research mixes technical elements in the building and evaluation of AI agents with experimental methods in online user studies.
 
-I have written papers about evaluations, reasoning, alignment and human data in venues such as NeurIPS (**1x Best Paper, 2x Oral presentations**), EMNLP, and GoodIT. I have been an invited speaker at Meta, the MIT Media Lab, MilaNLP and Ofcom. My research has been covered in the media by publications such as The Guardian and the MIT Technology Review.
+I have written papers about evaluations, reasoning, alignment and human data in venues such as NeurIPS (**1x Best Paper, 2x Oral presentations**), EMNLP, and GoodIT. I have been an invited speaker at Meta, the MIT Media Lab, MilaNLP and Ofcom. My research has been covered in the media by publications such as Financial Times, The Guardian, and the MIT Technology Review.
