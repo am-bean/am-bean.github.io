@@ -16,6 +16,6 @@ related_publications: khandelwalIndianBhEDDatasetMeasuring2024
 {%- if page.related_publications != null and page.related_publications.size > 0 -%}
 {% assign publications = page.related_publications | replace: ", ", "," | split: "," | join: "|" %}
 <div class="abstract">
-{% bibliography -f {{ site.scholar.bibliography }} -q @*[key^={{ publications }}]* --template {{entry.abstract}} %}
+{% reference -f {{ site.scholar.bibliography }} -q @*[key^={{ publications }}]* --template {{entry.abstract}} %}
 </div>
 {%- endif %}
