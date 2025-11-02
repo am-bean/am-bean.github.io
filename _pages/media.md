@@ -12,9 +12,11 @@ horizontal: false
 <div class="media">
   {%- assign sorted_media = site.media | sort: "importance" -%}
   <!-- Generate cards for each paper -->
-  <div class="grid">
+  <div class="container">
+    <div class="row row-cols-1">
     {%- for media in sorted_media -%}
       {% include media.html media=media %}
     {%- endfor %}
+    </div>
   </div>
 </div>
