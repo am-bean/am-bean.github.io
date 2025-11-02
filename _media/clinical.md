@@ -29,7 +29,7 @@ links:
     publisher: "The Doctor"
     url: "https://thedoctor.bma.org.uk/articles/health-society/bot-ched-advice-disturbing-results-in-ai-study/"
     date: "July 10, 2025"
-  - name: "Just add humans: Oxford medical study underscores the missing link in chatbot testing:
+  - name: "Just add humans: Oxford medical study underscores the missing link in chatbot testing"
     publisher: "VentureBeat"
     url: "https://venturebeat.com/ai/just-add-humans-oxford-medical-study-underscores-the-missing-link-in-chatbot-testing"
     date: "June 14, 2025"
