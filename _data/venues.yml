@@ -7,3 +7,8 @@
   color: "#ef5252"
 "NeurIPS":
   color: "#cb8ddc"
+"ICLR":
+  color: "#A6EA57"
+"Nature Medicine":
+  url: https://www.nature.com/nm/
+  color: "#000000"
