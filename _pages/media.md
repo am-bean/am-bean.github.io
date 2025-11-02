@@ -15,7 +15,6 @@ horizontal: false
   <div class="grid">
     {%- for media in sorted_media -%}
       {% include media.html media=media %}
-      <br>
     {%- endfor %}
   </div>
 </div>

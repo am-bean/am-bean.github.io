@@ -7,6 +7,7 @@ permalink: /media/bhed/
 links:
   - name: "MIT Technology Review"
     url: "https://www.technologyreview.com/2025/10/01/1124621/openai-india-caste-bias/"
+    date: "Oct. 1, 2025"
 importance: 4
 related_publications: khandelwalIndianBhEDDatasetMeasuring2024
 ---

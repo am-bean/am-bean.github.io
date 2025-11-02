@@ -9,12 +9,12 @@
         {%- endif %}
         <div class="col-md-12">
           <div class="card-body">
-            <a href="{{ media.url | relative_url }}"><h3 class="card-title">{{ media.title }}</h3></a>
+            <a href="{{ media.url | relative_url }}"><h3 class="card-title">{{media.title}}</h3></a>
             <p class="card-text">
                     {%- if media.links -%}
                     <ul>    
                         {%- for link in media.links -%}
-                        <li><a href="{{ link.url }}" target="_blank" rel="noopener" class="media-link">{{ link.name }}</a></li>
+                        <li><it>"({{link.date}})"</it><a href="{{ link.url }}" target="_blank" rel="noopener" class="media-link">{{ link.name }}</a></li>
                     {%- endfor -%}
                     </ul>
                     {%- endif -%}
