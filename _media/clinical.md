@@ -2,7 +2,7 @@
 layout: page
 title: "Reliability of LLMs as medical assistants for the general public: a randomized pregistered study"
 #img: assets/img/OII_small_blue_logo.jpg
-permalink: /media/bhed/
+permalink: /media/clinical/
 # list of name/url pairs
 links:
   - name: "My mom and Dr. DeepSeek"
