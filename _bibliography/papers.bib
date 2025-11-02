@@ -91,7 +91,6 @@
   selected={true}
 }
 
-
 @misc{beanLINGOLYBenchmarkOlympiadLevel2024,
   abbr = {NeurIPS},
   badge = {Oral},
@@ -148,9 +147,9 @@
   }
 
 @article{beanClinicalKnowledgeLLMs2025,
-  abbr = {Journal},
-  badge = {Under Review}, 
-  title = {Clinical Knowledge in {{LLMs}} Does Not Translate to Human Interactions},
+  abbr = {Nature Medicine},
+  badge = {Forthcoming}, 
+  title = {Reliability of LLMs as medical assistants for the general public: a randomized pregistered study},
   author = {Bean, Andrew M. and Payne, Rebecca and Parsons, Guy and Kirk, Hannah Rose and Ciro, Juan and Mosquera, Rafael and Monsalve, Sara Hincapi{\'e} and Ekanayaka, Aruna S. and Tarassenko, Lionel and Rocher, Luc and Mahdi, Adam},
   year = {2025},
   month = apr,
@@ -162,3 +161,34 @@
   arxiv = {2504.18919},
   selected = {true},
   }
+
+@inproceedings{beanMeasuringWhatMatters2025,
+  title = {Measuring What {{Matters}}: {{Construct Validity}} in {{Large Language Model Benchmarks}}},
+  shorttitle = {Measuring What {{Matters}}},
+  abbr = {NeurIPS},
+  badge = {Poster},
+  author = {Bean, Andrew M. and Kearns, Ryan Othniel and Romanou, Angelika and Hafner, Franziska Sofia and Mayne, Harry and Batzner, Jan and Foroutan, Negar and Schmitz, Chris and Korgul, Karolina and Batra, Hunar and Deb, Oishi and Beharry, Emma and Emde, Cornelius and Foster, Thomas and Gausen, Anna and Grandury, Mar{\'i}a and Han, Simeng and Hofmann, Valentin and Ibrahim, Lujain and Kim, Hazel and Kirk, Hannah Rose and Lin, Fangru and Liu, Gabrielle Kaili-May and Luettgau, Lennart and Magomere, Jabez and Rystr{\o}m, Jonathan and Sotnikova, Anna and Yang, Yushi and Zhao, Yilun and Bibi, Adel and Bosselut, Antoine and Clark, Ronald and Cohan, Arman and Foerster, Jakob Nicolaus and Gal, Yarin and Hale, Scott A. and Raji, Inioluwa Deborah and Summerfield, Christopher and Torr, Philip and Ududec, Cozmin and Rocher, Luc and Mahdi, Adam},
+  year = {2025},
+  month = oct,
+  urldate = {2025-11-02},
+  abstract = {Evaluating large language models (LLMs) is crucial for both assessing their capabilities and identifying safety or robustness issues prior to deployment. Reliably measuring abstract and complex phenomena such as `safety' and `robustness' requires strong construct validity, that is, having measures that represent what matters to the phenomenon. With a team of 29 expert reviewers, we conduct a systematic review of 445 LLM benchmarks from leading conferences in natural language processing and machine learning. Across the reviewed articles, we find patterns related to the measured phenomena, tasks, and scoring metrics which undermine the validity of the resulting claims. To address these shortcomings, we provide eight key recommendations and detailed actionable guidance to researchers and practitioners in developing LLM benchmarks.},
+  langid = {english},
+  selected= {true},
+}
+
+@misc{beanScalesComputeEfficient2025,
+  title = {Scales++: {{Compute Efficient Evaluation Subset Selection}} with {{Cognitive Scales Embeddings}}},
+  author = {Bean, Andrew M. and Seedat, Nabeel and Chen, Shengzhuang and Schwarz, Jonathan Richard},
+  abbr = {ICLR},
+  badge = {Under Review},
+  year = {2025},
+  month = oct,
+  number = {arXiv:2510.26384},
+  eprint = {2510.26384},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2510.26384},
+  urldate = {2025-11-02},
+  abstract = {The prohibitive cost of evaluating large language models (LLMs) on comprehensive benchmarks necessitates the creation of small yet representative data subsets (i.e., tiny benchmarks) that enable efficient assessment while retaining predictive fidelity. Current methods for this task operate under a model-centric paradigm, selecting benchmarking items based on the collective performance of existing models. Such approaches are limited by large upfront costs, an inability to immediately handle new benchmarks (`cold-start'), and the fragile assumption that future models will share the failure patterns of their predecessors. In this work, we challenge this paradigm and propose a item-centric approach to benchmark subset selection, arguing that selection should be based on the intrinsic properties of the task items themselves, rather than on model-specific failure patterns. We instantiate this item-centric efficient benchmarking approach via a novel method, Scales++, where data selection is based on the cognitive demands of the benchmark samples. Empirically, we show Scales++ reduces the upfront selection cost by over 18x while achieving competitive predictive fidelity. On the Open LLM Leaderboard, using just a 0.5{\textbackslash}\% data subset, we predict full benchmark scores with a 2.9\% mean absolute error. We demonstrate that this item-centric approach enables more efficient model evaluation without significant fidelity degradation, while also providing better cold-start performance and more interpretable benchmarking.},
+  archiveprefix = {arXiv}
+}

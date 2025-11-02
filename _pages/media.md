@@ -9,7 +9,7 @@ horizontal: false
 ---
 
 <!-- pages/media.md -->
-<div class="media">
+<div class="courses">
   {%- assign sorted_media = site.media | sort: "importance" -%}
   <!-- Generate cards for each paper -->
   <div class="container">

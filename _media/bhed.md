@@ -9,13 +9,7 @@ links:
     name: "OpenAI is huge in India. Its models are steeped in caste bias."
     url: "https://www.technologyreview.com/2025/10/01/1124621/openai-india-caste-bias/"
     date: "Oct. 1, 2025"
-importance: 4
+importance: 
+show_abstract: true
 related_publications: khandelwalIndianBhEDDatasetMeasuring2024
 ---
-
-{%- if page.related_publications != null and page.related_publications.size > 0 -%}
-{% assign publications = page.related_publications | replace: ", ", "," | split: "," | join: "|" %}
-<div class="abstract">
-{% reference -f {{ site.scholar.bibliography }} -q @*[key^={{ publications }}]* --template {{entry.abstract}} %}
-</div>
-{%- endif %}
