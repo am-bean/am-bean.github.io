@@ -14,7 +14,7 @@
                     {%- if media.links -%}
                     <ul>    
                         {%- for link in media.links -%}
-                        <li><it>"({{link.date}})"</it><a href="{{ link.url }}" target="_blank" rel="noopener" class="media-link">{{ link.name }}</a></li>
+                        <li><a href="{{ link.url }}" target="_blank" rel="noopener" class="media-link">"{{link.name}}", <i>{{link.publisher}}</i>, {{link.date}}.</a></li>
                     {%- endfor -%}
                     </ul>
                     {%- endif -%}
@@ -23,5 +23,4 @@
         </div>
       </div>
     </div>
-</div>
 </div>

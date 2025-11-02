@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /media/
-title: media
-description: A number of my research projects have attracted coverage from major media outlets. Where I am aware of the coverage, I have collected the links here. 
+permalink: /press/
+title: press
+description: A number of my research projects have attracted press coverage. Where I am aware of the coverage, I have collected the links here. If you are interested in writing about one of my papers, I'd be happy to hear from you!
 nav: true
 nav_order: 5
 horizontal: false

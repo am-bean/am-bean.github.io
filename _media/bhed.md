@@ -5,7 +5,8 @@ title: "Indian-BhED: A Dataset for Measuring India-Centric Biases in Large Langu
 permalink: /media/bhed/
 # list of name/url pairs
 links:
-  - name: "MIT Technology Review"
+  - publisher: "MIT Technology Review"
+    name: "OpenAI is huge in India. Its models are steeped in caste bias."
     url: "https://www.technologyreview.com/2025/10/01/1124621/openai-india-caste-bias/"
     date: "Oct. 1, 2025"
 importance: 4
