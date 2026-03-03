@@ -8,6 +8,8 @@ nav_order: 1
 ---
 <!-- _pages/publications.md -->
 <div class="publications">
+	<!-- DEBUG: show publication-badge config (remove after verification) -->
+	<div style="font-size:0.9rem;color:#666;margin-bottom:0.5rem;">Config: enable_publication_badges.altmetric={{ site.enable_publication_badges.altmetric }}; dimensions={{ site.enable_publication_badges.dimensions }}</div>
 
 {% bibliography -f {{ site.scholar.bibliography }} %}
 
