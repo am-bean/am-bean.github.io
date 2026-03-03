@@ -238,6 +238,17 @@
               {% endif %}
               data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
             {%- endif %}
+
+            <!-- DEBUG: show identifiers for troubleshooting (remove after verification) -->
+            <div class="debug-bib-info" style="font-size:0.85rem;color:#666;margin-top:4px;">Debug IDs:
+              enable_publication_badges.altmetric={{ site.enable_publication_badges.altmetric }} entry_has_altmetric_badge={{ entry_has_altmetric_badge }};
+              {% if entry.doi %} DOI={{ entry.doi }};{% endif %}
+              {% if entry.arxiv %} arXiv={{ entry.arxiv }};{% endif %}
+              {% if entry.eprint %} eprint={{ entry.eprint }};{% endif %}
+              {% if entry.pmid %} PMID={{ entry.pmid }};{% endif %}
+              {% if entry.altmetric %} altmetric={{ entry.altmetric }};{% endif %}
+            </div>
+
           </div>
           {%- endif %}
           {%- endif %}
