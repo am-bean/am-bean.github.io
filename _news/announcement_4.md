@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Evaluations of LLMs as medical assistants published in Nature Medicine!
-date: 2025-11-04 00:00:00-0000
+date: 2026-02-09 00:00:00-0000
 inline: true
 related_posts: false
 ---

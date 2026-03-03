@@ -9,6 +9,8 @@
   color: "#cb8ddc"
 "ICLR":
   color: "#A6EA57"
+"ICML":
+  color: "#f3dc4e"
 "Nature Medicine":
   url: https://www.nature.com/nm/
   color: "#000000"

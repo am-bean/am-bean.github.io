@@ -206,13 +206,15 @@
           {%- endif %}
           </div>
           {% if site.enable_publication_badges %}
-          {% assign entry_has_altmetric_badge = entry.altmetric or entry.doi or  entry.eprint or entry.pmid or entry.isbn %}
+          {% assign entry_has_altmetric_badge = entry.altmetric or entry.doi or entry.arxiv or entry.eprint or entry.pmid or entry.isbn %}
           {% assign entry_has_dimensions_badge = entry.dimensions or entry.doi or entry.pmid %}
           {% if entry_has_altmetric_badge or entry_has_dimensions_badge %}
           <div class="badges">
             {%- if site.enable_publication_badges.altmetric and entry_has_altmetric_badge %}
             <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"
-              {% if entry.eprint %}
+              {% if entry.arxiv %}
+                data-arxiv-id="{{ entry.arxiv }}"
+              {% elsif entry.eprint %}
                 data-arxiv-id="{{ entry.eprint }}"
               {% elsif entry.doi %}
                 data-doi="{{ entry.doi }}"
