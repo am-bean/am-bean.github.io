@@ -211,7 +211,7 @@
           {% if entry_has_altmetric_badge or entry_has_dimensions_badge %}
           <div class="badges">
             {%- if site.enable_publication_badges.altmetric and entry_has_altmetric_badge %}
-            <span class="altmetric-embed" data-hide-no-mentions="false" data-hide-less-than="0" data-badge-type="2" data-badge-popover="right"
+            <div class="altmetric-embed" data-hide-no-mentions="false" data-hide-less-than="0" data-badge-type="donut" data-badge-popover="right"
               {% if entry.arxiv %}
                 data-arxiv-id="{{ entry.arxiv }}"
               {% elsif entry.eprint %}
@@ -225,7 +225,7 @@
               {% elsif entry.isbn %}
                 data-isbn="{{ entry.isbn }}"
               {% endif %}
-              ></span>
+              ></div>
             {%- endif %}
             {%- if site.enable_publication_badges.dimensions and entry_has_dimensions_badge %}
               <span class="__dimensions_badge_embed__"
