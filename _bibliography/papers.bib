@@ -149,7 +149,6 @@
 
 @article{beanClinicalKnowledgeLLMs2025,
   abbr = {Nature Medicine},
-  badge = {}, 
   title = {Reliability of LLMs as medical assistants for the general public: a randomized pregistered study},
   author = {Bean, Andrew M. and Payne, Rebecca and Parsons, Guy and Kirk, Hannah Rose and Ciro, Juan and Mosquera, Rafael and Monsalve, Sara Hincapi{\'e} and Ekanayaka, Aruna S. and Tarassenko, Lionel and Rocher, Luc and Mahdi, Adam},
   year = {2026},
@@ -166,7 +165,6 @@
   title = {Measuring What {{Matters}}: {{Construct Validity}} in {{Large Language Model Benchmarks}}},
   shorttitle = {Measuring What {{Matters}}},
   abbr = {NeurIPS},
-  badge = {Poster},
   author = {Bean, Andrew M. and Kearns, Ryan Othniel and Romanou, Angelika and Hafner, Franziska Sofia and Mayne, Harry and Batzner, Jan and Foroutan, Negar and Schmitz, Chris and Korgul, Karolina and Batra, Hunar and Deb, Oishi and Beharry, Emma and Emde, Cornelius and Foster, Thomas and Gausen, Anna and Grandury, Mar{\'i}a and Han, Simeng and Hofmann, Valentin and Ibrahim, Lujain and Kim, Hazel and Kirk, Hannah Rose and Lin, Fangru and Liu, Gabrielle Kaili-May and Luettgau, Lennart and Magomere, Jabez and Rystr{\o}m, Jonathan and Sotnikova, Anna and Yang, Yushi and Zhao, Yilun and Bibi, Adel and Bosselut, Antoine and Clark, Ronald and Cohan, Arman and Foerster, Jakob Nicolaus and Gal, Yarin and Hale, Scott A. and Raji, Inioluwa Deborah and Summerfield, Christopher and Torr, Philip and Ududec, Cozmin and Rocher, Luc and Mahdi, Adam},
   year = {2025},
   month = oct,
@@ -187,4 +185,36 @@
   doi = {10.48550/arXiv.2510.26384},
   urldate = {2025-11-02},
   abstract = {The prohibitive cost of evaluating large language models (LLMs) on comprehensive benchmarks necessitates the creation of small yet representative data subsets (i.e., tiny benchmarks) that enable efficient assessment while retaining predictive fidelity. Current methods for this task operate under a model-centric paradigm, selecting benchmarking items based on the collective performance of existing models. Such approaches are limited by large upfront costs, an inability to immediately handle new benchmarks (`cold-start'), and the fragile assumption that future models will share the failure patterns of their predecessors. In this work, we challenge this paradigm and propose a item-centric approach to benchmark subset selection, arguing that selection should be based on the intrinsic properties of the task items themselves, rather than on model-specific failure patterns. We instantiate this item-centric efficient benchmarking approach via a novel method, Scales++, where data selection is based on the cognitive demands of the benchmark samples. Empirically, we show Scales++ reduces the upfront selection cost by over 18x while achieving competitive predictive fidelity. On the Open LLM Leaderboard, using just a 0.5{\textbackslash}\% data subset, we predict full benchmark scores with a 2.9\% mean absolute error. We demonstrate that this item-centric approach enables more efficient model evaluation without significant fidelity degradation, while also providing better cold-start performance and more interpretable benchmarking.},
+}
+
+@inproceedings{mayneDoesntKnowDecision2025,
+  abbr = {EMNLP},
+  title = {{{LLMs}} Don't {{Know}} Their {{Own Decision Boundaries}}: {{The}} Unreliability of {{Self-Generated Counterfactual Explanations}}},
+  shorttitle = {{{LLMs}} Don't {{Know}} Their {{Own Decision Boundaries}}},
+  author = {Mayne, Harry and Kearns, Ryan Othniel and Yang, Yushi and Bean, Andrew M. and Delaney, Eoin and Russell, Chris and Mahdi, Adam},
+  year = {2025},
+  month = sep,
+  booktitle = {Proceedings of the 2025 {{Conference}} on {{Empirical Methods}} in {{Natural Language Processing}}},
+  publisher = {Association for Computational Linguistics},
+  arxiv = {2509.09396},
+  doi = {10.48550/arXiv.2509.09396},
+  code = {https://github.com/HarryMayne/SCEs},
+  abstract = {To collaborate effectively with humans, language models must be able to explain their decisions in natural language. We study a specific type of self-explanation: self-generated counterfactual explanations (SCEs), where a model explains its prediction by modifying the input such that it would have predicted a different outcome. We evaluate whether LLMs can produce SCEs that are valid, achieving the intended outcome, and minimal, modifying the input no more than necessary. When asked to generate counterfactuals, we find that LLMs typically produce SCEs that are valid, but far from minimal, offering little insight into their decision-making behaviour. Worryingly, when asked to generate minimal counterfactuals, LLMs typically make excessively small edits that fail to change predictions.},
+  selected = {false}
+}
+
+@misc{khoujaLingolyTooDisentanglingReasoning2025,
+  abbr = {ICLR},
+  title = {{{LINGOLY-TOO}}: {{Disentangling Reasoning}} from {{Knowledge}} with {{Templatised Orthographic Obfuscation}}},
+  shorttitle = {{{LINGOLY-TOO}}},
+  author = {Khouja, Jude and Korgul, Karolina and Hellsten, Simi and Yang, Lingyi and Neacsu, Vlad and Mayne, Harry and Kearns, Ryan Othniel and Bean, Andrew M. and {et al.}},
+  year = {2025},
+  month = mar,
+  publisher = {arXiv},
+  number = {arXiv:2503.02972},
+  arxiv = {2503.02972},
+  doi = {10.48550/arXiv.2503.02972},
+  urldate = {2025-05-28},
+  abstract = {The expanding knowledge and memorisation capacity of frontier language models allows them to solve many reasoning tasks directly by exploiting prior knowledge, leading to inflated estimates of their reasoning abilities. We introduce LINGOLY-TOO, a challenging reasoning benchmark grounded in natural language and designed to counteract the effect of non-reasoning abilities on reasoning estimates. Using linguistically informed rulesets, we permute reasoning problems written in real languages to generate numerous question variations. These permutations preserve the intrinsic reasoning steps required for each solution while reducing the likelihood problems are directly solvable with models' knowledge.},
+  selected = {false}
 }
