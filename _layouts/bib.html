@@ -41,7 +41,7 @@
         <!-- publication metric badges (Altmetric & Dimensions) shown under the venue/badge on the left column -->
         {%- if site.enable_publication_badges %}
           {% assign entry_has_altmetric_badge = false %}
-          {% if entry.altmetric or entry.doi or entry.arxiv or entry.eprint or entry.pmid or entry.isbn %}
+          {% if entry.doi or entry.arxiv or entry.eprint or entry.pmid or entry.altmetric or entry.isbn %}
             {% assign entry_has_altmetric_badge = true %}
           {% endif %}
           {% assign entry_has_dimensions_badge = false %}
@@ -51,7 +51,7 @@
           {% if entry_has_altmetric_badge or entry_has_dimensions_badge %}
             <div class="badges" style="margin-top:6px;">
               {%- if site.enable_publication_badges.altmetric and entry_has_altmetric_badge %}
-              <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="donut" data-badge-popover="right"
+              <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="0" data-badge-type="donut" data-badge-popover="right"
                 {% if entry.doi %}
                   data-doi="{{ entry.doi }}"
                 {% elsif entry.eprint %}
