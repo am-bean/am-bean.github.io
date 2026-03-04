@@ -1,9 +1,8 @@
 
           <div class="publications">
             {%- if page.selected_keys -%}
-              {%- for key in page.selected_keys -%}
-                {% bibliography -f {{ site.scholar.bibliography }} --group_by none --keys "{{ key }}" %}
-              {%- endfor -%}
+              {%- assign keys_string = page.selected_keys | join: ',' -%}
+              {% bibliography -f {{ site.scholar.bibliography }} --group_by none --keys "{{ keys_string }}" %}
             {%- else -%}
               {% bibliography -f {{ site.scholar.bibliography }} --group_by none --query @*[selected=true]* --sort_by year,month --order ascending %}
             {%- endif -%}
