@@ -205,6 +205,17 @@
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
           {%- endif %}
           </div>
+
+          <!-- DEBUG: always show entry identifiers to diagnose badge rendering -->
+          <div style="font-size:0.9rem;color:#666;margin-top:4px;">Entry debug:
+            {% if entry.doi %} DOI={{ entry.doi }};{% else %} DOI=none;{% endif %}
+            {% if entry.arxiv %} arXiv={{ entry.arxiv }};{% else %} arXiv=none;{% endif %}
+            {% if entry.eprint %} eprint={{ entry.eprint }};{% else %} eprint=none;{% endif %}
+            {% if entry.pmid %} pmid={{ entry.pmid }};{% else %} pmid=none;{% endif %}
+            {% if entry.isbn %} isbn={{ entry.isbn }};{% else %} isbn=none;{% endif %}
+            {% if entry.altmetric %} altmetric={{ entry.altmetric }};{% else %} altmetric=none;{% endif %}
+          </div>
+
           {% if site.enable_publication_badges %}
           {% assign entry_has_altmetric_badge = entry.altmetric or entry.doi or entry.arxiv or entry.eprint or entry.pmid or entry.isbn %}
           {% assign entry_has_dimensions_badge = entry.dimensions or entry.doi or entry.pmid %}
