@@ -19,6 +19,60 @@ strong {
   color: var(--global-text-color);
 }
 
+/* Additional small-screen fixes for tables and code blocks */
+@media (max-width: 767.98px) {
+  table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  pre {
+    white-space: pre-wrap;
+    word-break: break-word;
+    overflow-x: auto;
+  }
+}
+
+/* Mobile / small-screen adjustments */
+@media (max-width: 767.98px) {
+  /* Make grid items stack on small screens */
+  .grid-sizer,
+  .grid-item {
+    width: 100% !important;
+    margin-bottom: 0.75rem;
+  }
+
+  /* Reduce spacing for list items */
+  .post-list li {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  /* Slightly larger readable body text on small screens */
+  .post-description,
+  .caption {
+    font-size: 0.95rem;
+  }
+
+  /* Make header less tall on small devices */
+  .header-bar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    h1 {
+      font-size: 2.25rem;
+    }
+  }
+
+  /* Ensure modals and large images fit */
+  .wechat-modal > img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -57,7 +111,9 @@ table.table a {
 
 figure,
 img {
-  max-width: 90vw;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 blockquote {
@@ -477,7 +533,7 @@ footer.sticky-bottom {
 
   h1 {
     color: var(--global-theme-color);
-    font-size: 5rem;
+    font-size: clamp(2rem, 6vw, 5rem);
   }
 }
 
